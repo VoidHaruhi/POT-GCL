@@ -1,3 +1,5 @@
+Source code of our NeurIPS 2023 Spotlight paper "Provable Training for Graph Contrastive Learning"
+
 # Environment Settings
 
 Here we list some important python packages we used:
