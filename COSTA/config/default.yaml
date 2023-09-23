@@ -1,0 +1,133 @@
+CiteSeer:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256
+  num_proj_hidden: 256
+  num_layers: 2
+  drop_edge_rate_1: 0.3
+  drop_edge_rate_2: 0.1
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 1500 # 499 both
+  eta: 0.1
+  K: 2
+  m: 1
+  test: 'public'
+
+
+Cora:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256 
+  num_proj_hidden: 256 
+  num_layers: 2
+  num_proj_layers: 2
+  drop_edge_rate_1: 0.2
+  drop_edge_rate_2: 0.4
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 700 # 1000 for both 500 fow pw
+  eta: 0.1
+  K: 1433
+  m: 1 
+  test: 'public'
+
+PubMed:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256 
+  num_input_dim: 1433
+  num_proj_hidden: 256 
+  num_layers: 2
+  num_proj_layers: 2
+  drop_edge_rate_1: 0.4
+  drop_edge_rate_2: 0.1
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 2000 # 1000 for both 500 fow pw
+  eta: 0.1
+  K: 1
+  test: 'public'
+
+BlogCatalog:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256 
+  num_proj_hidden: 256 
+  num_layers: 2
+  num_proj_layers: 2
+  drop_edge_rate_1: 0.4
+  drop_edge_rate_2: 0.2
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 2500 # 1000 for both 500 fow pw
+  eta: 0.1
+  K: 1
+  test: 'random'
+
+Flickr:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256 
+  num_proj_hidden: 256 
+  num_layers: 2
+  num_proj_layers: 2
+  drop_edge_rate_1: 0.4
+  drop_edge_rate_2: 0.1
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 2500 # 1000 for both 500 fow pw
+  eta: 0.1
+  K: 1
+  test: 'random'
+
+WikiCS:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256
+  num_proj_hidden: 256
+  num_layers: 2
+  drop_edge_rate_1: 0.2
+  drop_edge_rate_2: 0.3
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 3000
+  eta: 0.1
+  K: 1
+  test: 'random'
+Computers:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 128
+  num_proj_hidden: 128
+  num_layers: 2
+  drop_edge_rate_1: 0.6
+  drop_edge_rate_2: 0.3
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 4000
+  eta: 0.1
+  K: 1
+  test: 'random'
+Photo:
+  seed: 12345
+  learning_rate: 0.001
+  num_hidden: 256
+  num_proj_hidden: 64
+  num_layers: 2
+  drop_edge_rate_1: 0.3
+  drop_edge_rate_2: 0.5
+  drop_feature_rate_1: 0
+  drop_feature_rate_2: 0
+  tau: 0.4
+  num_epochs: 4000
+  eta: 0.1
+  K: 1
+  test: 'random'
